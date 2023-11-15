@@ -16,4 +16,6 @@ typedef struct s_sk_list {
     int max_level;
 } t_sk_list;
 
+t_sk_cell* create_cell(int v, int l);
+t_sk_list create_list (int lmax);
 #endif //AGENDA_LISTE_H
