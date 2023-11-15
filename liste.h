@@ -8,7 +8,7 @@
 typedef struct s_sk_cell {
     int value;
     int level;
-    strut s_sk_cell **next;
+    struct s_sk_cell **next;
 } t_sk_cell;
 
 typedef struct s_sk_list {
